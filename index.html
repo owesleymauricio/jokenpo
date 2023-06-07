@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKENPO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="campo" nome="campo">
+        <input type="radio" name="grupo" id="pedra" class="jkp"> <p style="font-size: 50px;">Pedra </p> 
+        <input type="radio" name="grupo" id="tesoura" class="jkp"><p style="font-size: 50px;">tesoura </p>
+        <input type="radio" name="grupo" id="papel" class="jkp"><p style="font-size: 50px;">Papel </p>
+    </form>
+    <div class="container">
+    <button onclick="jogar()">jogar</button>
+    <button onclick="reset()">reset</button>
+</div>
+<div id="resultado">
+    <h3>Resultado da partida:</h3>
+   
+
+        <h2 id="placar"></h2>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+
+</html>
